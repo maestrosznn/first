@@ -1,0 +1,183 @@
+.container {
+    background-color: skyblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    background-color: dimgrey;
+    overflow: hidden;
+    gap: 25%;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: calibri;
+    margin: 2%;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    line-height: 2;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+}
+
+section {
+    overflow: auto;
+}
+
+h1 {
+    font-size: 250%;
+    font-family: arial;
+}
+
+p {
+    font-size: 130%;
+    font-family: calibri;
+}
+
+table {
+    border: solid 4px rgb(0, 0, 128);
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.table-container {
+    overflow: hidden;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 250%;
+    padding: 12px;
+}
+
+td,
+th {
+    border: solid 2px rgb(0, 0, 128);
+    border-bottom: solid 4px rgb(0, 0, 128);
+    border-right: solid 4px rgb(0, 0, 128);
+    padding: 1.5%;
+    border-radius: 0.5rem;
+}
+
+tr:nth-child(1) {
+    background-color: lightgrey;
+    color: rgb(106, 19, 68);
+}
+
+tr:hover {
+    background-color: rgb(255, 192, 203);
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    float: left;
+}
+
+.small-image {
+    width: 3%;
+    height: auto;
+    margin: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 180%;
+    }
+
+    .profile-image {
+        float: none;
+        width: 100%;
+        margin: 0 0 10% 0;
+    }
+}
+
+.contact {
+    background-color: orange;
+    color: white;
+    font-size: 80%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.contact:hover {
+    background-color: darkorange;
+}
+
+ol {
+    background-color: red;
+    font-size: 200%;
+    border: solid 5px;
+    border-radius: 2rem;
+    padding: 1rem 1.2rem;
+    list-style-position: inside;
+}
+
+ol li {
+    padding: 0.8%;
+}
+
+ol li:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+#Welcome {
+    font-family: impact;
+    color: black;
+}
+
+#Roadmap {
+    font-family: tahoma;
+}
+
+footer {
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin: 4rem 0 0 0;
+    border-radius: 1rem;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.feedback {
+    background-color: #0059ff;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.feedback:hover {
+    background-color: #0033cc;
+}
